@@ -70,6 +70,7 @@ display(product_text_pd)
 
 # DBTITLE 1,Download the Embedding Model
 # download embeddings model
+# We'll try other models
 original_model = SentenceTransformer('all-MiniLM-L12-v2')
 
 # COMMAND ----------
